@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/Spotify_favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="login-navbar">
+        <div class="login-img">
+            <img src="images/Spotify Logo.png" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <p>Sign up to start <br> your journey</p>
+        <div class="login-type">
+            <ul class="login-type-item">
+                <li class="item1">
+                    <img class="img" src="images/google_logo.jpg" alt="" style="height: 18px; width:18px">
+                    <span id="span">Sign up with Google</span>
+                </li>
+                <li class="item2">
+                    <img class="img" src="images/facebook_logo.png" alt="" style="height: 18px; width:18px">
+                    <span>Sign up with Facebook</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="credential-fill">
+            <div class="credential-fill-type">
+                <form action="register.php" method="POST">
+                    <label for="text">Full Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Full Name" required><br>
+                    <label for="username">Email address</label><br>
+                    <input type="text" name="email" id="email" placeholder="name@domain.com" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="text" name="password" id="password" placeholder="Password" required><br>
+                    <input type="submit" id="button" name="register" value="Register">
+                </form>
+            </div>
+        </div>
+
+        <div class="registeration">
+            <span>
+                Already have an account?
+                <a id="login" href="login.html">Log in for Spotify</a>
+            </span>
+        </div>
+
+        <div class="login-copyright">
+            <p>This site is protected by reCAPTCHA and the Google Privacy Policy <br> and Terms of Service apply.</p>
+        </div>
+
+</body>
+
+</html>

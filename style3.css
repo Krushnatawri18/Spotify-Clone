@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(to bottom, rgb(25, 25, 25), rgb(19, 19, 19), black);
+    font-family: sans-serif;
+}
+
+.login-navbar{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-navbar div{
+    position: relative;
+    height: 50px;
+    width: 200px;
+}
+
+.login-navbar .login-img img{
+    position: absolute;
+    background-size: cover;
+    height: 40px;
+    width: 140px;
+    left: 100px;
+    top: 25px;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 2px 2px;
+    height: 800px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    /* background-color: rgb(26, 26, 26); */
+}
+
+.login-type {
+    width: 50%;
+    border-bottom: 2px solid gray;
+}
+
+p {
+    margin-left: 24px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.login-type-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.login-type-item .item1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-type-item li {
+    border: 1px solid rgb(156, 156, 156);
+    margin-bottom: 6px;
+    /* padding: 10px; */
+    width: 100%;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-type-item li:hover {
+    border: 2px solid white;
+}
+
+.login-type-item li .img {
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    margin-left: 25px;
+    overflow: hidden;
+    /* margin-right: 20px;
+    margin-left: 10px;
+    margin-top: auto; */
+    justify-content: center;
+}
+
+/* h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; */
+/* } */
+
+.credential-fill {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 100%;
+    /* width: 50%; */
+}
+
+.credential-fill-type{
+    border-bottom: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.credential-fill input #rememberme{
+    display: inline;
+}
+
+.credential-fill label {
+    /* margin-bottom: 10px; */
+    margin-left: 0;
+    width: 50%;
+}
+
+.credential-fill input:hover {
+    border: 2px solid white;
+}
+
+.credential-fill input {
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    padding: 7px 10px;
+    width: 60%;
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.credential-fill span {
+    margin-right: 0px;
+}
+
+.credential-fill #button {
+    margin-top: 20px;
+    border: 2px solid rgb(123, 250, 123);
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(79, 210, 79);
+    color: black;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.credential-fill #button:hover{
+    transform: scaleX(1.15);
+    transition: all ease 0.4s;
+}
+
+.registeration{
+    margin-bottom: 40px;
+}
+
+.registeration span{
+    color: rgb(176, 176, 176);
+    font-weight: 600;
+    text-align: center;
+}
+
+.registeration span a {
+    margin-left: 5px;
+    color: white;
+}
+
+.registeration span a:hover{
+    color: rgb(71, 200, 71);
+}
+
+.login-copyright p{
+    color: rgb(176, 176, 176);
+    font-size: small;
+}
