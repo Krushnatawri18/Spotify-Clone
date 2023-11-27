@@ -33,73 +33,73 @@ function makeSound(key) {
             break;
 
         case 1:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
+            var song1 = new Audio("music/chaleya.mp3");
             song1.play();
             break;
 
         case 2:
-            var song2 = new Audio("music/ik-vaari-aa.mp3");
+            var song2 = new Audio("music/jannetein kahan.mp3");
             song2.play();
             break;
 
         case 3:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song3 = new Audio("music/hum fir milenge.mp3");
+            song3.play();
             break;
 
         case 4:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song4 = new Audio("music/hookah bar.mp3");
+            song4.play();
             break;
 
         case 5:
-            var song1 = new Audio("music/cold-outside.mp3");
-            song1.play();
+            var song5 = new Audio("music/cold-outside.mp3");
+            song5.play();
             break;
 
         case 6:
-            var song1 = new Audio("music/shape-of-you.mp3");
-            song1.play();
+            var song6 = new Audio("music/shape-of-you.mp3");
+            song6.play();
             break;
 
         case 7:
-            var song1 = new Audio("music/unstoppable.mp3");
-            song1.play();
+            var song7 = new Audio("music/unstoppable.mp3");
+            song7.play();
             break;
 
         case 8:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song8 = new Audio("music/People-you-know.mp3");
+            song8.play();
             break;
 
         case 9:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song9 = new Audio("music/Starboy.mp3");
+            song9.play();
             break;
 
         case 10:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song10 = new Audio("music/ik-vaari-aa.mp3");
+            song10.play();
             break;
             
         case 11:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song11 = new Audio("music/ik-vaari-aa.mp3");
+            song11.play();
             break;
 
         case 12:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song12 = new Audio("music/ik-vaari-aa.mp3");
+            song12.play();
             break;
 
         case 13:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song13 = new Audio("music/ik-vaari-aa.mp3");
+            song13.play();
             break;
 
         case 14:
-            var song1 = new Audio("music/ik-vaari-aa.mp3");
-            song1.play();
+            var song14 = new Audio("music/ik-vaari-aa.mp3");
+            song14.play();
             break;
 
         default:
@@ -110,3 +110,5 @@ function makeSound(key) {
     }
 
 }
+
+
